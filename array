@@ -8,3 +8,36 @@ def calculate_sum(arr) :
 numbers = [1, 2, 3, 4, 5]
 result = calculate_sum (numbers)
 print("Sumin Python :", result)
+
+// JavaScript : Calculate the sum of an array
+function calculateSum(arr) {
+    let total = o;
+    for (let num of arr) {
+        total += num;
+    }
+    return total;
+}
+ 
+let numbers = [1, 2, 3, 4, 5];
+let result = calculate Sum (numbers);
+console.log("Sum in JavaScript:", result);
+
+// C++: Calculate the sum of an array
+#include <iostream>
+using namespace std;
+ 
+int calculateSum(int arr[], int size) {
+    int total = o;
+    for (int i = o; i < size; i++) {
+        total += arr[i];
+    }﻿
+    return total;
+}
+ 
+int main () {
+    int numbers [] = {1, 2, 3, 4, 5};
+    int size = sizeof(numbers) / sizeof( numbers [o]);
+    int result = calculateSum(numbers, size);
+    cout << "Sum in C++" " << result << endl;
+    return o;
+}﻿﻿
